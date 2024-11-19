@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none   &kp N1        &kp N2        &kp N3          &kp N4     &kp N5    &kp N6          &kp N7          &kp N8           &kp N9           &kp N0         &kp BACKSPACE
-&none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &none      &none     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp PAGE_UP
-&kp F1  &kp F2        &kp F3        &kp F4          &kp F5     &kp F6    &kp F7          &kp F8          &kp F9           &kp F10          &kp F11        &kp F12
-                                    &kp LEFT_SHIFT  &kp SPACE  &to 0     &to 2           &kp ENTER       &kp RIGHT_SHIFT
+&kp TAB   &kp N1        &kp N2        &kp N3          &kp N4     &kp N5    &kp N6          &kp N7          &kp N8           &kp N9           &kp N0         &kp BACKSPACE
+&kp CAPS  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &none      &none     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp PAGE_UP
+&kp F1    &kp F2        &kp F3        &kp F4          &kp F5     &kp F6    &kp F7          &kp F8          &kp F9           &kp F10          &kp F11        &kp F12
+                                      &kp LEFT_SHIFT  &kp SPACE  &to 0     &to 2           &kp ENTER       &kp RIGHT_SHIFT
             >;
         };
 
@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL  &kp AT  &kp HASH        &kp DLLR   &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK        &kp LPAR  &kp RPAR  &kp BACKSPACE
-&none  &trans    &trans  &trans          &trans     &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&none  &trans    &trans  &trans          &trans     &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                         &kp LEFT_SHIFT  &kp SPACE  &to 0        &to 1      &kp ENTER  &kp RIGHT_SHIFT
+&kp TAB   &kp EXCL  &kp AT  &kp HASH        &kp DLLR   &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK        &kp LPAR  &kp RPAR  &kp BACKSPACE
+&kp CAPS  &trans    &trans  &trans          &trans     &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
+&none     &trans    &trans  &trans          &trans     &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+                            &kp LEFT_SHIFT  &kp SPACE  &to 0        &to 1      &kp ENTER  &kp RIGHT_SHIFT
             >;
         };
     };
